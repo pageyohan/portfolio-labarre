@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* src/index.css */
+@font-face {
+  font-family: 'BPKinder';
+  src: url('./fonts/BPkinder.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Committee';
+  src: url('./fonts/COMMITTEE-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E1DBD4;
+  color: #1D1D1B;
+  font-family: 'BPKinder', Arial, sans-serif; /* Par défaut, utiliser la police TTF */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3036DB;
+  font-family: 'COMMITTEE', Arial, sans-serif; /* Utiliser la police OTF pour les titres */
+}
+
+a {
+  color: #3036DB;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 20px;
 }

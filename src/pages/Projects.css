@@ -1,0 +1,10 @@
+/* src/pages/Projects.css */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 40px;
+    font-family: 'BPKinder', Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  

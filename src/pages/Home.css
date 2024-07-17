@@ -1,0 +1,50 @@
+.home {
+    background-color: #E1DBD4;
+    color: #1D1D1B;
+    text-align: left;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 220px;
+    overflow: hidden;
+}
+
+.star-container {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.star-container img {
+    transition: transform 0.5s ease; /* Ajoute la transition */
+}
+
+.star-container:hover img {
+    transform: rotate(180deg); /* Rotation au survol */
+}
+  
+.star-container:not(:hover) img {
+    transform: rotate(0deg); /* Retour à la position initiale */
+}
+.star-image {
+    width: 280px;
+}
+
+.main-text {
+    font-size: 110px;
+    font-family: 'Committee', Arial, sans-serif;
+    line-height: 1.1;
+    max-width: 1600px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    color: #1D1D1B;
+    letter-spacing: 6px;
+}
+
+.rolling-word {
+    color: #3036DB;
+    margin: 0 5px;
+    transition: opacity 0.5s ease-in-out;
+}
