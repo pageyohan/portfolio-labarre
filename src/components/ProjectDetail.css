@@ -1,0 +1,36 @@
+.project-detail {
+  margin: 30px 100px;
+  font-family: 'BPKinder', Arial, sans-serif;
+}
+
+.project-detail h2 {
+  font-size: 64px;
+  font-family: 'Committee', Arial, sans-serif;
+}
+
+.project-detail-image {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.project-detail-box {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.project-detail-box p {
+  margin-left: 20px;
+  width: 50%;
+}
+
+.project-box3 {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.project-detail p {
+  font-size: 30px;
+  margin-top: 20px;
+}

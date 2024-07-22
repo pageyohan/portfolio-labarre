@@ -9,6 +9,7 @@ const Home = () => {
     "COHÉRENTS",
     "UNIQUES",
     "DYNAMIQUES",
+    "IMPACTANTS",
   ];
 
   const [index, setIndex] = useState(0);

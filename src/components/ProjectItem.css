@@ -1,64 +1,106 @@
-/* src/components/ProjectItem.css */
 .project-item {
-    margin: 30px 100px;
-  }
-  
-  .project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .project-title {
-    display: flex;
-    align-items: center;
-  }
-  
-  .project-title h2 {
-    font-size: 64px;
-    margin: 0;
-    font-family: 'Committee', Arial, sans-serif;
-  }
-  
-  .project-category {
-    margin-left: 40px;
-    margin-top: 50px;
-    font-size: 44px;
-    color: #1D1D1B;
-    font-family: 'BPKinder', Arial, sans-serif;
-  }
-  
-  .project-icon {
-    width: 54px;
-    height: 54px;
-    transition: transform 0.3s, filter 0.3s;
-  }
-  
-  .project-icon:hover {
-    transform: scale(1.2);
-    filter: invert(30%) sepia(63%) saturate(5767%) hue-rotate(224deg) brightness(98%) contrast(98%);
-  }
-  
-  .project-content {
-    max-width: 90%;
-    font-family: 'BPKinder', Arial, sans-serif;
-    font-size: 30px;
-    height: auto;
-    overflow: hidden;
-    opacity: 1;
-    transition: height 0.5s ease, opacity 0.5s ease;
-  }
-  
-  .project-image {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  
-  .project-divider {
-    height: 4px;
-    background-color: #3036DB; /* Barre bleue */
-    margin-top: 20px;
-  }
-  
+  margin: 30px 150px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+}
+
+.project-title h2 {
+  font-size: 64px;
+  margin: 0;
+  font-family: 'Committee', Arial, sans-serif;
+}
+
+.project-category {
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 26px;
+  color: #1D1D1B;
+  font-family: 'COMMITTEE', Arial, sans-serif;
+}
+
+.project-icon {
+  width: 64px;
+  height: 64px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.project-icon:hover {
+  transform: scale(1.2);
+  filter: invert(30%) sepia(63%) saturate(5767%) hue-rotate(224deg) brightness(98%) contrast(98%);
+}
+
+.project-content {
+  max-width: 90%;
+  font-family: 'COMMITTEE', Arial, sans-serif;
+  font-size: 30px;
+  height: auto;
+  overflow: hidden;
+  opacity: 1;
+  transition: height 0.5s ease, opacity 0.5s ease;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.project-divider {
+  height: 4px;
+  background-color: #3036DB; /* Barre bleue */
+  margin-top: 20px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.project-tag {
+  background-color: #3036DB;
+  color: white;
+  padding: 10px 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  transform: rotate(-3deg);
+  font-family: "BPKinder" , Arial, sans-serif;
+}
+
+.project-details {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.project-description {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.read-more-button {
+  background: none;
+  border: none;
+  color: #3036DB;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "COMMITTEE" , Arial, sans-serif;
+}
+
+.read-more-button:hover {
+  text-decoration: underline;
+}
