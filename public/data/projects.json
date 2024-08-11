@@ -3,11 +3,38 @@
     "title": "Toutooth",
     "category": "Identité Visuelle",
     "description": "Toutooth est une entreprise fictive basée à Limoges qui se spécialise dans la vente de produit d'hygiène bucco-dentaire canine. Elle se distingue par son image de marque volontairement amicale et décalée, afin de se positionner comme un ami auprès de ses consommateurs. A l'occasion du lancement de son nouveau produit, le coffret 'CleanMax', Toutooth souhaite profiter de cette opportunité pour renouveler son identité visuelle et organiser une campagne de communication événementielle.",
+    "tags": ["Projet Fictif", "Branding"],
     "box1": "Toutooth désirait une nouvelle identité visuelle pour le lancement de leur nouveau produit, reflétant leurs valeurs et objectifs. L'entreprise, qui se perçoit comme digne de confiance, stable, optimiste et source de bonheur, souhaitant une image amicale et chaleureuse pour créer un lien fort avec les consommateurs.",
     "box2": "La marque cible les propriétaires de chiens de tous âges et milieux sociaux, en proposant des produits et services de qualité adaptés aux besoins de leur animal. Avec cette nouvelle identité visuelle, Toutooth espère se rapprocher de sa clientèle, se différencier de la concurrence et mettre en avant son engagement pour le bien-être animal.",
     "box3": "Pour répondre aux attentes de Toutooth, j'ai travaillé pendant plusieurs semaines pour les satisfaire. Afin de donner un aspect amical et chaleureux à la marque, j'ai opté pour un style fait main dans mes illustrations, évoquant ainsi un coté enfantin. En effet, les chiens sont comme nos petits bébés, il est important d'en prendre soin comme si nous achetions un objet pour notre enfant.",
     "image": "/images/toutooth.png",
-    "tags": ["Projet Fictif", "Branding"]
+    "imagegauche": "/images/toutoothgauche.png",
+    "imagedroite": "/images/toutoothdroite.png",
+    "colors": [
+      {
+        "nomCouleur": "Process Cyan",
+        "R": 93,
+        "V": 189,
+        "B": 233,
+        "C": 61,
+        "M": 6,
+        "J": 2,
+        "N": 0
+      },
+      {
+        "nomCouleur": "Beige",
+        "R": 250,
+        "V": 249,
+        "B": 224,
+        "C": 4,
+        "M": 0,
+        "J": 18,
+        "N": 0
+      }
+    ],
+    "couleurDescription": "Tout d'abord, la couleur bleue a été choisie pour sa capacité à rassurer et à inspirer confiance, souvent associée à l'hygiène bucco-dentaire. C'est également une couleur joyeuse qui évoque le sourire, permettant de montrer à tous le joli sourire que votre compagnon à quatre pattes aura grâce à Toutooth.",
+    "couleurDescription2": "Ensuite, le blanc légèrement cassé vient ajouter une touche chaleureuse et amicale à la marque. Un blanc total aurait pu nuire aux valeurs de Toutooth, tandis que cette teinte s'accorde parfaitement avec le bleu",
+    "projectImage": "/images/toutoothproject.png"
   },
   {
     "title": "Les 4 Fantastiques",

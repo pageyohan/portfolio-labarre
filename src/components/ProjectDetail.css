@@ -1,36 +1,185 @@
 .project-detail {
-  margin: 30px 100px;
-  font-family: 'BPKinder', Arial, sans-serif;
-}
-
-.project-detail h2 {
-  font-size: 64px;
-  font-family: 'Committee', Arial, sans-serif;
-}
-
-.project-detail-image {
-  width: 300px;
-  height: auto;
-  margin-top: 20px;
-}
-
-.project-detail-box {
+  width: 100%;
   display: flex;
-  align-items: flex-start;
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.project-detail-box p {
-  margin-left: 20px;
-  width: 50%;
+.project-header {
+  width: 1164px;
+  text-align: left;
+  cursor: default;
+  margin-bottom: 10px; /* Réduit l'espacement en bas */
+}
+
+.project-header h2 {
+  color: #3036DB;
+  font-size: 96px;
+}
+
+.project-main-content {
+  width: 1164px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60px; /* Réduit l'espacement horizontal entre l'image et le texte */
+}
+
+.project-main-image {
+  width: 500px; /* Réduit la largeur de l'image */
+  height: auto;
+}
+
+.project-description {
+  width: 580px; /* Augmente la largeur de la description */
+  color: black;
+  font-size: 26px;
+  font-family: 'BPkinder', Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.project-description p {
+  margin-bottom: 20px; /* Réduit l'espacement entre les paragraphes */
 }
 
 .project-box3 {
-  margin-top: 20px;
-  width: 100%;
+  width: 1164px;
+  color: black;
+  font-size: 24px;
+  font-family: 'BPkinder', Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  margin-top: 20px; /* Réduit l'espacement en haut */
 }
 
-.project-detail p {
-  font-size: 30px;
+.project-images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project-sub-image {
+  width: 1000px;
+  height: 1000px;
+}
+
+.project-divider-custom {
+  height: 4px;
+  width: 1600px;
+  background-color: #3036DB; /* Couleur différente pour le diviseur */
+  margin-top: 50px; /* Un peu plus d'espace au-dessus */
+  margin-bottom: 30px; /* Un peu d'espace en dessous également */
+}
+
+
+.project-options {
+  display: flex;
+  justify-content: flex-start; /* Aligner à gauche */
+  width: 80%; /* Occuper toute la largeur disponible */
+  margin-left: 0; /* Supprimez ou ajustez cette marge pour un alignement parfait */
+  padding-left: 50px; /* Ajoute un peu de padding pour éloigner les boutons du bord gauche */
+  margin-bottom: 20px; /* Espace en dessous des options */
+}
+
+.option-button {
+  background: none;
+  border: none; /* Retirer la bordure pour un look plus propre */
+  color: black; /* Couleur par défaut */
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: "COMMITTEE", Arial, sans-serif;
+  margin:0 10px; /* Espacement horizontal entre les boutons */
+  transition: color 0.3s; /* Transition de couleur en douceur */
+}
+
+.option-button.active {
+  color: #3036DB; /* Couleur bleue pour le texte actif */
+}
+
+.option-button:hover {
+  text-decoration: underline;
+}
+
+.option-content {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+}
+
+.nom-couleur {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: bold;
+}
+
+.color-box {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 400px;
+  height: 160px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.color-row {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 50px; /* Réduit l'espacement entre les éléments */
+  margin-top: 40px;
+}
+
+.color-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.couleurs-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.color-values {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.color-label {
+  font-size: 20px;
+}
+
+.couleurs-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.color-description {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "COMMITTEE", Arial, sans-serif;
+}
+
+
+.project-large-image {
+  margin-top: 40px; /* Ajuste l'espacement au-dessus de la grande image */
+  text-align: center;
+}
+
+.project-large-image img {
+  width: 100%; /* Assure que l'image est responsive */
+  height: auto;
 }
