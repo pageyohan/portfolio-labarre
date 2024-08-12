@@ -44,6 +44,7 @@
 .project-icon:hover {
   transform: scale(1.2);
   filter: invert(30%) sepia(63%) saturate(5767%) hue-rotate(224deg) brightness(98%) contrast(98%);
+  cursor: pointer;
 }
 
 .project-content {

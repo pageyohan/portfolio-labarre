@@ -27,7 +27,7 @@ const Contact = () => {
       </div>
       <div className="contact-item">
         <img src={instagram} alt="Instagram Icon" className="contact-icon" />
-        <a href="https://www.instagram.com/labarbouil_design/" target='_blank'>LABARBOUIL_DESIGN </a>
+        <a href="https://www.instagram.com/labarbouil_design/" target='_blank'>@LABARBOUIL_DESIGN </a>
       </div>
     </div>
   );

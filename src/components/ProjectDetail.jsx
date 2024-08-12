@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Footer from '../components/Footer';
 import './ProjectDetail.css';
 
 const ProjectDetail = () => {
@@ -21,6 +22,8 @@ const ProjectDetail = () => {
   if (!project) {
     return <div>Projet non trouvé</div>;
   }
+
+    const layoutType = project.projectImages.length === 4 ? 'four-images' : 'three-images';
 
   return (
     <div className="project-detail">
@@ -103,11 +106,18 @@ const ProjectDetail = () => {
           </div>
         )}
       </div>
-      {project.projectImage && (
-        <div className="project-large-image">
-          <img src={project.projectImage} alt="Grande Image" />
+
+      {project.projectImages && (
+        <div className={`project-image-layout ${layoutType}`}>
+          {project.projectImages.map((image, index) => (
+            <img key={index} src={image} alt={`Project Image ${index + 1}`} className="layout-image" />
+          ))}
         </div>
       )}
+
+<div className="project-divider-custom-2"></div>
+
+      <Footer />
     </div>
   );
 };

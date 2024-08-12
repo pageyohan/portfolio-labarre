@@ -34,7 +34,12 @@
     ],
     "couleurDescription": "Tout d'abord, la couleur bleue a été choisie pour sa capacité à rassurer et à inspirer confiance, souvent associée à l'hygiène bucco-dentaire. C'est également une couleur joyeuse qui évoque le sourire, permettant de montrer à tous le joli sourire que votre compagnon à quatre pattes aura grâce à Toutooth.",
     "couleurDescription2": "Ensuite, le blanc légèrement cassé vient ajouter une touche chaleureuse et amicale à la marque. Un blanc total aurait pu nuire aux valeurs de Toutooth, tandis que cette teinte s'accorde parfaitement avec le bleu",
-    "projectImage": "/images/toutoothproject.png"
+    "projectImages": [
+      "/images/hautgauche.png",
+      "/images/hautdroite.png",
+      "/images/basgauche.png",
+      "/images/basdroite.png"
+    ]
   },
   {
     "title": "Les 4 Fantastiques",
