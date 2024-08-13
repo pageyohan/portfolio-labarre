@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import ProjectDetail from './components/ProjectDetail';
 
+
 function App() {
   return (
     <Router>

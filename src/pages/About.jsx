@@ -7,7 +7,7 @@ const About = () => {
   const scrollRef = React.useRef(null); // Référence pour le défilement
   const alexandreImage = `${process.env.PUBLIC_URL}/images/alexandre.png`;
   const etoileImage = `${process.env.PUBLIC_URL}/images/etoile.svg`;
-  const flecheImage = `${process.env.PUBLIC_URL}/images/flèche.svg`;
+  const flecheImage = `${process.env.PUBLIC_URL}/images/flèche-about.svg`;
 
   const scrollToSection = () => {
     scrollRef.current.scrollIntoView({ behavior: 'smooth' });

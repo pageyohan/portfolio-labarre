@@ -122,6 +122,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   width: 85%;
+  margin-left: 150px;
 }
 
 .nom-couleur {
@@ -168,7 +169,6 @@ body {
   align-items: center;
 }
 
-
 .color-label {
   font-size: 20px;
 }
@@ -181,24 +181,79 @@ body {
 
 .color-description {
   margin-top: 20px;
-  font-size: 20px;
-  font-family: "COMMITTEE", Arial, sans-serif;
+  font-size: 26px;
+  font-family: "BPKinder", Arial, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: justify;
+  width: 90%;
 }
 
+.typographie-content {
+  display: flex;
+  flex-direction: column;
+}
 
-.project-large-image {
-  margin-top: 100px; /* Ajuste l'espacement au-dessus de la grande image */
+.typography-item {
+  font-size: 24px; /* Taille de la police principale */
+  margin: 10px 0; /* Espacement autour de chaque item */
+  padding: 10px; /* Padding interne */
+  border: 1px solid #ddd; /* Bordure légère */
+  border-radius: 8px; /* Coins arrondis */
+  display: flex;
+  flex-direction: column; /* Colonne pour afficher les éléments l'un en dessous de l'autre */
+  align-items: flex-start; /* Aligner à gauche */
+}
+
+.typography-content-wrapper {
+  display: flex;
+  width: 100%; /* Prend toute la largeur disponible */
+  flex-direction: row; /* Empile les éléments verticalement */
+  justify-content: space-evenly; /* Espacement égal entre les éléments */
+}
+
+.typo-name {
+  font-size: 70px; /* Plus grand */
+  color: #3036DB; /* Couleur bleue */
+  font-weight: bold;
+  margin-top: 30px; /* Espacement au-dessus du nom */
+  width: 35%;
+
+}
+
+.typo-style {
+  font-size: 30px; /* Taille du style */
+  color: black; /* Couleur du texte */
+  font-weight: bold; /* Gras */
+  margin-top: 50px;
+  width: 15%;
   text-align: center;
+  margin-right: 120px;
 }
 
-.project-large-image img {
-  width: 100%; /* Assure que l'image est responsive */
-  height: auto;
+.typo-sample {
+  font-size: 30px; /* Taille de l'échantillon de texte */
+  color: black; /* Couleur du texte */
+  font-weight: bold; /* Gras */
+  width: 30%;
+  overflow-wrap: break-word;
 }
+
+.typography-description {
+  font-family: "BPKinder", Arial, sans-serif; /* Police de caractères */
+  font-size: 28px; /* Taille de la police */
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 60px; /* Espacement au-dessus du texte */
+  margin-bottom: 60px;
+  width: 100%;
+  text-align:justify;
+}
+
 
 .project-image-layout {
   display: grid;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .project-image-layout.four-images {
@@ -217,3 +272,28 @@ body {
   object-fit: cover;
 }
 
+
+.project-image-layout.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.project-image-layout.banner-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.layout-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.layout-banner {
+  grid-column: span 2;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

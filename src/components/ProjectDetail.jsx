@@ -2,6 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Footer from '../components/Footer';
 import './ProjectDetail.css';
+import '../fonts/fonts.css'; // Importer le CSS des polices ici
+
+const getFontFamily = (nomTypo, style) => {
+  const formattedName = nomTypo.toLowerCase().replace(/\s+/g, '-');
+  const formattedStyle = style.toLowerCase();
+  return `${formattedName}-${formattedStyle}`;
+};
 
 const ProjectDetail = () => {
   const { title } = useParams();
@@ -23,7 +30,10 @@ const ProjectDetail = () => {
     return <div>Projet non trouvé</div>;
   }
 
-    const layoutType = project.projectImages.length === 4 ? 'four-images' : 'three-images';
+  // Détermine si la dernière image est une bannière
+  const hasBanner = project.projectImages.length > 0 && project.projectImages.length < 4;
+  const regularImages = hasBanner ? project.projectImages.slice(0, -1) : project.projectImages;
+  const bannerImage = hasBanner ? project.projectImages[project.projectImages.length - 1] : null;
 
   return (
     <div className="project-detail">
@@ -93,7 +103,6 @@ const ProjectDetail = () => {
                 </div>
               );
             })}
-            {/* Afficher les descriptions des couleurs sous les color-box */}
             <div className="color-description">
               <p>{project.couleurDescription}</p>
               <p>{project.couleurDescription2}</p>
@@ -102,20 +111,37 @@ const ProjectDetail = () => {
         )}
         {activeOption === 'typographie' && (
           <div className="typographie-content">
-            {/* Contenu pour la typographie */}
+            {project.typographies && project.typographies.map((typo, index) => (
+              <div key={index} className="typography-item" style={{ fontFamily: getFontFamily(typo.nomTypo, typo.style) }}>
+                <div className="project-divider-custom"></div>
+                <div className="typography-content-wrapper">
+                  <div className="typo-name">{typo.nomTypo}</div>
+                  <div className="typo-style">{typo.style}</div>
+                  <div className="typo-sample">abcdefghijklmnopqrstuvwxyz!@#$%^&amp;*()-;&quot;&gt;&lt;.,?/</div>
+                </div>
+              </div>
+            ))}
+
+            <div className="typography-description">
+              <p>{project.typoDescription}</p>
+            </div>
           </div>
         )}
       </div>
 
       {project.projectImages && (
-        <div className={`project-image-layout ${layoutType}`}>
-          {project.projectImages.map((image, index) => (
-            <img key={index} src={image} alt={`Project Image ${index + 1}`} className="layout-image" />
-          ))}
-        </div>
-      )}
+  <div className={`project-image-layout ${hasBanner ? 'banner-layout' : 'grid-layout'}`}>
+    {regularImages.map((image, index) => (
+      <img key={index} src={image} alt={`Project detail ${index + 1}`} className="layout-image" />
+    ))}
+    {bannerImage && (
+      <img src={bannerImage} alt="Project banner" className="layout-banner" />
+    )}
+  </div>
+)}
 
-<div className="project-divider-custom-2"></div>
+
+      <div className="project-divider-custom-2"></div>
 
       <Footer />
     </div>

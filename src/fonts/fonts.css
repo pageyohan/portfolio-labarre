@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: 'ginger-cat-regular';
+  src: url('./projets/ginger-cat-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'neo-sans-light';
+  src: url('./projets/neo-sans-light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'neo-sans-regular';
+  src: url('./projets/neo-sans-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

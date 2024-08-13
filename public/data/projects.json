@@ -34,19 +34,92 @@
     ],
     "couleurDescription": "Tout d'abord, la couleur bleue a été choisie pour sa capacité à rassurer et à inspirer confiance, souvent associée à l'hygiène bucco-dentaire. C'est également une couleur joyeuse qui évoque le sourire, permettant de montrer à tous le joli sourire que votre compagnon à quatre pattes aura grâce à Toutooth.",
     "couleurDescription2": "Ensuite, le blanc légèrement cassé vient ajouter une touche chaleureuse et amicale à la marque. Un blanc total aurait pu nuire aux valeurs de Toutooth, tandis que cette teinte s'accorde parfaitement avec le bleu",
+    "typographies": [
+      {
+        "nomTypo": "Ginger Cat",
+        "style": "regular"
+      },
+      {
+        "nomTypo": "Neo Sans",
+        "style": "regular"
+      },
+      {
+        "nomTypo": "Neo Sans",
+        "style": "light"
+      }
+    ],
+    "typoDescription": "La typographie ginger cat a été sélectionnée pour le logo et les titres principaux, car elle s'inscrit dans une démarche ludique et enfantine, tout en étant amicale et digne de confiance. En ce qui concerne les textes en paragraphe, la police neo sans, une linéale agréable à lire, s'intègre parfaitement à notre ton amical et chaleureux",
     "projectImages": [
       "/images/hautgauche.png",
       "/images/hautdroite.png",
       "/images/basgauche.png",
       "/images/basdroite.png"
     ]
-  },
+  },  
   {
-    "title": "Les 4 Fantastiques",
-    "category": "Motion Design",
-    "description": "Description courte du projet Les 4 Fantastiques.",
-    "fullDescription": "Description complète du projet Les 4 Fantastiques...",
-    "image": "/images/les4fantastiques.png",
-    "tags": ["Animation", "Super Héros"]
+    "title": "écoute-toi",
+    "category": "Identité Visuelle",
+    "description": "écoute-toi est une start-up française spécialisée dans les podcasts érotiques, fondée par deux étudiants en école de commerce. Pour créer leur identité visuelle, ils ont fait appel à notre classe. Nous avons formé une équipe de trois personnes pour travailler sur ce projet, que nous avons mené à bien avec succès.",
+    "tags": ["Branding", "Start-up","Podcast"],
+    "box1":"L'équipe écoute-toi souhaitait une identité visuelle reflétant leurs valeurs et leur objectif. Ils souhaitent que leur entreprise soit perçue comme un espace de confiance où l'on peut partager ses histoires et ses fantasmes les plus intenses. L'identité visuelle se devait d'être élégante, suscitant le désir tout en conservant une image sexy et bienveillante. L'enjeu était de proposer une alternative à la pornographie pour ceux qui cherchent à explorer, développer et s'épanouir pleinement dans leur sexualité.",
+    "box3": "Avec l'aide de Johanne et Olivia, nous avons travaillé dur sur ce projet pour proposer trois pistes différentes, chacune reflétant des valeurs qui leur sont chères. La piste que j'ai développée est remplie de fantasmes et d'intimité, créant une atmosphère hypnotique. J'ai utilisé des couleurs sexy et glamour pour plonger les auditeurs au cœur de l'univers d'écoute-toi.",
+    "image": "/images/écoute-toi-logo.png",
+    "imagegauche": "/images/écoute-toi-gauche.png",
+    "imagedroite": "/images/écoute-toi-droite.png",
+    "colors": [
+      {
+        "nomCouleur": "Fire Engine Red",
+        "R": 214,
+        "V": 38,
+        "B": 42,
+        "C": 8,
+        "M": 95,
+        "J": 85,
+        "N": 1
+      },
+      {
+        "nomCouleur": "Eerie Black",
+        "R": 29,
+        "V": 29,
+        "B": 27,
+        "C": 74,
+        "M": 65,
+        "J": 63,
+        "N": 81
+      },
+      {
+        "nomCouleur": "Falu Red",
+        "R": 113,
+        "V": 28,
+        "B": 29,
+        "C": 33,
+        "M": 96,
+        "J": 81,
+        "N": 48
+      }
+    ],
+    "couleurDescription": "Le rouge est couramment lié à la passion, au désir et à l'amour, tandis que le noir représente l'élégance, le mystère et la sophistication. En mélangeant ces deux teintes, on crée une ambiance à la fois séduisante et intimiste, suscitant des émotions de désir et de luxure tout en préservant une certaine élégance et un certain raffinement.",
+    "typographies": [
+      {
+        "nomTypo": "Mundial",
+        "style": "regular"
+      },
+      {
+        "nomTypo": "Mundial",
+        "style": "italic"
+      },
+      {
+        "nomTypo": "Mundial",
+        "style": "bold"
+      }
+    ],
+    "typoDescription": "La typographie Mundial est une police linéale élégante et intemporelle, qui correspond parfaitement à l'image de marque sophistiquée souhaitée par l'équipe d'écoute-toi. Le contrastre entre cette police élégante et les couleurs sexy utilisées dans le design crée une tension visuelle qui renforce l'impact émotionnel de l'image. En présentant l'érotisme avec une typographie raffinée et distinguée, on le considère comme une expérience noble et épanouissante, renforçant ainsi l'idée que l'exploration de la sexualité peut être sophistiquée et gratifiante. Cette combinaison de typographie et de couleurs permet de créer une image de marque forte et cohérente pour écoute-toi, reflétant parfaitement les valeurs et les objectifs de l'entreprise.",
+    "projectImages":[
+      "/images/écoute-toi-hautgauche.png",
+      "/images/écoute-toi-hautdroite.png",
+      "/images/écoute-toi-bas.png"
+    ]
   }
 ]
+
+
