@@ -1,5 +1,5 @@
 .project-item {
-  margin: 30px 150px;
+  margin: 1.875rem 9.375rem; /* 30px 150px */
 }
 
 .project-header {
@@ -13,32 +13,32 @@
   display: flex;
   align-items: baseline;
   flex-grow: 1;
-  width: 1000px; /* Largeur du titre */
+  width: 62.5rem; /* 1000px */
   white-space: nowrap;
 }
 
 .project-title h2 {
-  font-size: 64px;
+  font-size: 4rem; /* 64px */
   margin: 0;
   font-family: 'Committee', Arial, sans-serif;
   white-space: nowrap;
 }
 
 .project-category {
-  margin-left: 20px;
-  font-size: 36px;
+  margin-left: 1.25rem; /* 20px */
+  font-size: 2.25rem; /* 36px */
   color: #1D1D1B;
   font-family: 'BPKinder', Arial, sans-serif;
-  width: 500px; /* Largeur de la catégorie */
+  width: 31.25rem; /* 500px */
   text-align: left;
   white-space: nowrap;
   text-transform: uppercase;
 }
 
 .project-icon {
-  width: 80px;
-  height: 80px;
-  margin-left: 400px; /* Espace entre l'icône et le texte */
+  width: 5rem; /* 80px */
+  height: 5rem; /* 80px */
+  margin-left: 25rem; /* 400px */
 }
 
 .project-icon:hover {
@@ -51,44 +51,45 @@
   max-height: 0;
   max-width: 90%;
   font-family: 'COMMITTEE', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   height: auto;
   overflow: hidden;
   opacity: 0;
   transition: max-height 1s ease, opacity 1.5s ease;
 }
+
 .project-content.open {
-  max-height: 500px; /* Ajustez cette valeur en fonction du contenu */
+  max-height: 31.25rem; /* 500px */
   opacity: 1;
 }
 
 .project-image {
   width: 100%;
-  max-width: 400px;
-  height: 400px;
-  margin-top: 20px;
-  margin-left: 20px;
+  max-width: 25rem; /* 400px */
+  height: 25rem; /* 400px */
+  margin-top: 1.25rem; /* 20px */
+  margin-left: 1.25rem; /* 20px */
 }
 
 .project-divider {
-  height: 4px;
+  height: 0.25rem; /* 4px */
   background-color: #3036DB; /* Barre bleue */
-  margin-top: 20px;
+  margin-top: 1.25rem; /* 20px */
 }
 
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin-top: 0.625rem; /* 10px */
 }
 
 .project-tag {
   background-color: #3036DB;
   color: white;
-  padding: 10px 30px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  font-size: 32px;
+  padding: 0.625rem 1.875rem; /* 10px 30px */
+  margin-right: 0.625rem; /* 10px */
+  margin-bottom: 0.625rem; /* 10px */
+  font-size: 2rem; /* 32px */
   transform: rotate(-3deg);
   font-family: "BPKinder", Arial, sans-serif;
 }
@@ -96,11 +97,11 @@
 .project-details {
   display: flex;
   align-items: flex-start;
-  margin-top: 20px;
+  margin-top: 1.25rem; /* 20px */
 }
 
 .project-description {
-  margin-left: 20px;
+  margin-left: 1.25rem; /* 20px */
   flex: 1;
 }
 
@@ -109,8 +110,8 @@
   border: none;
   color: #3036DB;
   cursor: pointer;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 1.25rem; /* 20px */
+  margin-top: 1.25rem; /* 20px */
   font-family: "COMMITTEE", Arial, sans-serif;
 }
 

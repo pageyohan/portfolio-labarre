@@ -1,53 +1,51 @@
-/* src/components/Accordion.css */
 .accordion {
-    margin: 30px 100px;
-  }
-  
-  .accordion-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: default; /* Change cursor to default for the header */
-  }
-  
-  .accordion-header h2 {
-    font-size: 70px;
-    max-width: 85%;
-    margin: 0;
-    font-family: 'Committee', Arial, sans-serif;
-    pointer-events: none; /* Prevent click events on the title */
-  }
-  
-  .accordion-icon {
-    width: 76px;
-    height: 76px;
-    transition: transform 0.3s, filter 0.3s;
-    cursor: pointer; /* Ensure cursor is pointer for the icon */
-  }
-  
-  .accordion-icon:hover {
-    transform: scale(1.2);
-    filter: invert(30%) sepia(63%) saturate(5767%) hue-rotate(224deg) brightness(98%) contrast(98%);
-  }
-  
-  .accordion-content {
-    max-width: 90%;
-    font-family: 'BPKinder', Arial, sans-serif;
-    font-size: 30px;
-    height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: height 0.5s ease, opacity 0.5s ease;
-  }
-  
-  .accordion-content.open {
-    height: auto;
-    opacity: 1;
-  }
-  
-  .accordion-divider {
-    height: 4px;
-    background-color: #3036DB; /* Barre bleue */
-    margin-top: 20px;
-  }
-  
+  margin: 1.875rem 6.25rem; /* 30px 100px */
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: default; /* Change cursor to default for the header */
+}
+
+.accordion-header h2 {
+  font-size: 4.375rem; /* 70px */
+  max-width: 85%;
+  margin: 0;
+  font-family: 'Committee', Arial, sans-serif;
+  pointer-events: none; /* Prevent click events on the title */
+}
+
+.accordion-icon {
+  width: 4.75rem; /* 76px */
+  height: 4.75rem; /* 76px */
+  transition: transform 0.3s, filter 0.3s;
+  cursor: pointer; /* Ensure cursor is pointer for the icon */
+}
+
+.accordion-icon:hover {
+  transform: scale(1.2);
+  filter: invert(30%) sepia(63%) saturate(5767%) hue-rotate(224deg) brightness(98%) contrast(98%);
+}
+
+.accordion-content {
+  max-width: 90%;
+  font-family: 'BPKinder', Arial, sans-serif;
+  font-size: 1.875rem; /* 30px */
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.5s ease, opacity 0.5s ease;
+}
+
+.accordion-content.open {
+  height: auto;
+  opacity: 1;
+}
+
+.accordion-divider {
+  height: 0.25rem; /* 4px */
+  background-color: #3036DB; /* Barre bleue */
+  margin-top: 1.25rem; /* 20px */
+}
